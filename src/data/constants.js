@@ -2,14 +2,13 @@ export const Bio = {
     name: "Lester Lien",
     roles: [
       "Front End Developer",
-      "Android Developer",
       "UI/UX Designer",
       "Programmer",
     ],
     description:
-      " ",
+      "I am currently a senior at University of Riverside majoring in Computer Science. I am a first generation college student and will graduate with a Bachelors in Computer Science. I am planning on working in front-end developing as a career.",
     github: "https://github.com/LesterLien",
-    resume: " ",
+    resume: "https://drive.google.com/file/d/1FRg4huJ5Gu2L6m_M_9Cmqmdg96u5kscl/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/lienlester/",
   };
 
