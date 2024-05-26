@@ -148,3 +148,23 @@ export const Bio = {
     },
   ];
 
+  export const education = [
+    {
+      id: 0,
+      img: "https://upload.wikimedia.org/wikipedia/commons/9/90/Uc_riverside_textlogo.png",
+      school: "University of California, Riverside",
+      date: "Sept 2022 - Current",
+      grade: "3.44 GPA",
+      desc: "I transferred here and I am still completing my Bachelors of Science, Computer Science. I should be done by Winter 2024.",
+      degree: "Bachelors of Science, Computer Science",
+    },
+    {
+      id: 1,
+      img: "data:image/png;base64,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",
+      school: "Pasadena City College",
+      date: "Aug 2020 - May 2022",
+      grade: "3.864 GPA",
+      desc: "I transferred out after 2 years, but I am still completing my IGETC General Education and should be done by Summer 2024.",
+      degree: "Associates of Arts, Engineering and Technology",
+    }
+  ];
