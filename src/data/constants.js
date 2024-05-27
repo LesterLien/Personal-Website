@@ -10,6 +10,7 @@ export const Bio = {
     github: "https://github.com/LesterLien",
     resume: "https://drive.google.com/file/d/1FRg4huJ5Gu2L6m_M_9Cmqmdg96u5kscl/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/lienlester/",
+    email: "lesterlien11@gmail.com"
   };
 
   export const skills = [
@@ -171,84 +172,113 @@ export const Bio = {
 
 
   export const projects = [
-  {
-    id: 0,
-    title: "Resume 322",
-    date: "Sept 2023 - Mar 2024",
-    description:
-      "Resume 322 is a resume builder, a web application that uses Markdown and CSS to create a resume. Users can export their finished resumes in PDF. Resume 322 is important because of how much of a struggle it is to format a resume through a normal word processor. The ability to be familiar with Markdown is better as it gives users more control.",
-    image:
-      "https://i.imgur.com/FB8hcMn.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Firebase",
-      "Express.js",
-      "React",
-      "Node.js",
-      "TailwindCSS"
-    ],
-    category: "web app",
-    github: "https://github.com/UCR-Senior-Design/course-project-dvl",
-  },
-  {
-    id: 1,
-    title: "Boba Thoughts",
-    date: "Jan 2024 – Mar 2024",
-    description:
-      "The we­b application helps boba fans locate nearby drink shops e­asily. Input your location to view a map showing all boba places in that city. Click markers to acce­ss details like address, hours, distance­, and reviews from Yelp. Favorite­ spots of interest, view galle­ries of chosen boba shops and sign in to see­ your favorites. The aim is to cater to boba love­rs by promoting the discovery of hidden gems. It provide­s a user-friendly expe­rience for efficie­ntly finding nearby boba spots.",
+    {
+      id: 0,
+      title: "Conscious Cart",
+      date: "Apr 2024",
+      description:
+        "Conscious Cart is a platform that leverages AI technology to offer detailed analyses of food products. It extracts key information such as brand details, ingredients, potential allergens, and health evaluations, presenting users with a holistic view of each item. Users can receive personalized recommendations based on their dietary preferences, ensuring they make choices aligned with their health goals.",
+        image:
+        "https://i.imgur.com/Af1AfIe.jpeg",
+      tags: [
+        "Dart",
+        "Android Studio",
+        "Firebase",
+        "Flutter",
+        "FDC API",
+        "Gemini API",
+        "Google Cloud",
+      ],
+      category: "mobile app",
+      github: "https://github.com/TheFiveHeads/Google-AI-Hackathon-Project",
+    },
+    {
+      id: 1,
+      title: "Boba Thoughts",
+      date: "Jan 2024 – Mar 2024",
+      description:
+        "The we­b application helps boba fans locate nearby drink shops e­asily. Input your location to view a map showing all boba places in that city. Click markers to acce­ss details like address, hours, distance­, and reviews from Yelp. Favorite­ spots of interest, view galle­ries of chosen boba shops and sign in to see­ your favorites. The aim is to cater to boba love­rs by promoting the discovery of hidden gems. It provide­s a user-friendly expe­rience for efficie­ntly finding nearby boba spots.",
+        image:
+        "https://i.imgur.com/Yt2qdTV.png",
+      tags: [
+        "Next.js",
+        "Javascript",
+        "TailwindCSS",
+        "Figma",
+        "Eslint",
+        "Prettier",
+        "Github Actions",
+        "Cypress",
+        "Yelp API",
+        "Google API"
+      ],
+      category: "web app",
+      github: "https://github.com/stormyy00/BobaThoughts",
+    },
+    {
+    
+      id: 2,
+      title: "Resume 322",
+      date: "Sept 2023 - Mar 2024",
+      description:
+        "Resume 322 is a resume builder, a web application that uses Markdown and CSS to create a resume. Users can export their finished resumes in PDF. Resume 322 is important because of how much of a struggle it is to format a resume through a normal word processor. The ability to be familiar with Markdown is better as it gives users more control.",
       image:
-      "https://i.imgur.com/Yt2qdTV.png",
-    tags: [
-      "Next.js",
-      "Javascript",
-      "TailwindCSS",
-      "Figma",
-      "Eslint",
-      "Prettier",
-      "Github Actions",
-      "Cypress",
-      "Yelp API",
-      "Google API"
-    ],
-    category: "web app",
-    github: "https://github.com/stormyy00/BobaThoughts",
-  },
-  {
-    id: 2,
-    title: "Conscious Cart",
-    date: "Apr 2024",
-    description:
-      "Conscious Cart is a platform that leverages AI technology to offer detailed analyses of food products. It extracts key information such as brand details, ingredients, potential allergens, and health evaluations, presenting users with a holistic view of each item. Users can receive personalized recommendations based on their dietary preferences, ensuring they make choices aligned with their health goals.",
-      image:
-      "https://i.imgur.com/Af1AfIe.jpeg",
-    tags: [
-      "Dart",
-      "Android Studio",
-      "Firebase",
-      "Flutter",
-      "FDC API",
-      "Gemini API",
-      "Google Cloud",
-    ],
-    category: "mobile app",
-    github: "https://github.com/TheFiveHeads/Google-AI-Hackathon-Project",
-  },
-  {
-    id: 3,
-    title: "Monster RPG",
-    date: "Apr 2024",
-    description:
-      "The project will feature a storyline: the player will have the ability to select and replay missions, have the ability to make decisions with who you encounter, and exchange dialogue with those npcs. Throughout the story, the player will face a diverse amount of enemies including one unique boss monster and will earn different drops/experience depending on the enemy faced.. The project will also support a home area: a town where the player has the ability to buy/sell items with the various merchants located there. In regards to who the player is, they can choose between 4 different classes: Brawler, Mage, Assassin, or Hunter. They will have the ability to customize their weapon and armor types.",
-      image:
-      "https://i.imgur.com/sFkH9lg.jpeg",
-    tags: [
-      "C++",
-      "Google Test"
-    ],
-    category: "non web app",
-    github: "https://github.com/LesterLien/Monster-RPG-Game",
-  },
+        "https://i.imgur.com/FB8hcMn.png",
+      tags: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Firebase",
+        "Express.js",
+        "React",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      category: "web app",
+      github: "https://github.com/UCR-Senior-Design/course-project-dvl",
+    },
+    {
+      id: 3,
+      title: "Monster RPG",
+      date: "Sept 2022 – Dec 2023",
+      description:
+        "The project will feature a storyline: the player will have the ability to select and replay missions, have the ability to make decisions with who you encounter, and exchange dialogue with those npcs. Throughout the story, the player will face a diverse amount of enemies including one unique boss monster and will earn different drops/experience depending on the enemy faced.. The project will also support a home area: a town where the player has the ability to buy/sell items with the various merchants located there. In regards to who the player is, they can choose between 4 different classes: Brawler, Mage, Assassin, or Hunter. They will have the ability to customize their weapon and armor types.",
+        image:
+        "https://i.imgur.com/sFkH9lg.jpeg",
+      tags: [
+        "C++",
+        "Google Test"
+      ],
+      category: "non web app",
+      github: "https://github.com/LesterLien/Monster-RPG-Game",
+    }
 
+
+];
+
+export const interests = [
+  {
+    title: "Interest",
+    interests: [
+      {
+        name: "Food",
+      },
+      {
+        name: "Gaming",
+      },
+      {
+        name: "Traveling",
+      },
+      {
+        name: "Swimming",
+      },
+      {
+        name: "Fishing",
+      },
+      {
+        name: "PC and Keyboard Building",
+      },
+      
+    ],
+  },
 ];
