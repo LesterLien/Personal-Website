@@ -281,4 +281,69 @@ export const interests = [
       
     ],
   },
+  {
+    title: "Relevant Coursework",
+    interests: [
+      {
+          "name": "CS 010A : INTRO: CS FOR SCI, MATH & ENGR I"
+      },
+      {
+          "name": "CS 010B : INTRO: CS FOR SCI, MATH & ENGR II"
+      },
+      {
+          "name": "CS 010C : INTRO-DATA STRUCTURES & ALGORITHMS"
+      },
+      {
+          "name": "CS 011 : INTRO TO DISCRETE STRUCTURES"
+      },
+      {
+          "name": "CS 061 : MACHINE ORG & ASSEMBLY LANG PRGM"
+      },
+      {
+          "name": "CS 100 : SOFTWARE CONSTRUCTION"
+      },
+      {
+          "name": "CS 111 : DISCRETE STRUCTURES"
+      },
+      {
+          "name": "CS 141 : INTERMED DATA STRUCTURES & ALGORITHMS"
+      },
+      {
+          "name": "CS 150 : AUTOMATA AND FORMAL LANGUAGES"
+      },
+      {
+          "name": "CS 152 : COMPILER DESIGN"
+      },
+      {
+          "name": "CS 153 : DESIGN OF OPERATING SYSTEMS"
+      },
+      {
+          "name": "CS 160 : CONCURRENT PROGRAMMING & PARALLEL SYSTEMS"
+      },
+      {
+          "name": "CS 170 : INTRO TO ARTIFICIAL INTELLIGENCE"
+      },
+      {
+          "name": "CS 178A : PROJECT SEQUENCE IN CSE"
+      },
+      {
+          "name": "CS 178B : PROJECT SEQUENCE IN CSE"
+      },
+      {
+          "name": "CS 180 : INTRO TO SOFTWARE ENGINEERING"
+      },
+      {
+          "name": "CS 120A : LOGIC DESIGN"
+      },
+      {
+          "name": "CS 110 : PRINCIPLES OF WEB DEVELOPMENT"
+      },
+      {
+          "name": "CS 166 : DATABASE MANAGEMENT SYSTEMS"
+      },
+      {
+          "name": "CS 172 : INTRODUCTION TO INFORMATION RETRIEVAL"
+      }
+  ],
+  },
 ];
